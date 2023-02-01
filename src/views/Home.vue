@@ -4,11 +4,16 @@
 			title="123" @click="toggleDark()">
 			切换
 		</button>
+		<p class=" text-primary">123</p>
+		<Icon icon="ci:cookie" />
+		<Icon icon="flag:ac-4x3" />
+		<Icon icon="logos:telegram" />
 	</div>
 </template>
 <script lang="ts" setup>
+import { Icon } from '@iconify/vue'
 import { toggleDark } from '@/composables/dark'
-const isUpdateRequestPending = ref<boolean>(true)
+
 </script>
 
 <style scoped>
