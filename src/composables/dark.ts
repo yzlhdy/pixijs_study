@@ -1,4 +1,4 @@
-import { useDark, usePreferredDark, useToggle } from "@vueuse/core"
+import { useDark, usePreferredDark, useToggle } from '@vueuse/core'
 
 // these APIs are auto-imported from @vueuse/core
 export const isDark = useDark()

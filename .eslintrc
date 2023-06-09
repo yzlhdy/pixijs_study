@@ -1,0 +1,14 @@
+{
+	"extends": "@antfu",
+	"rules": {
+		"no-tabs": "off", // tab问题
+		"no-console": "off", // 接触console.log
+		"no-restricted-syntax": [
+			"error",
+			{
+				"selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+				"message": "Unexpected property on console object was called"
+			}
+		]
+	}
+}

@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import { RouterView } from "vue-router";
-import AppLayout from "@/layouts/AppLayout.vue";
+import { RouterView } from 'vue-router'
+import AppLayout from '@/layouts/AppLayout.vue'
 </script>
 
 <template>
-    <AppLayout>
-        <RouterView />
-    </AppLayout>
+  <AppLayout>
+    <RouterView />
+  </AppLayout>
 </template>
 
-<style lang="scss">
-
+<style>
+#canvas {
+    border: 1px solid black;
+}
 </style>
